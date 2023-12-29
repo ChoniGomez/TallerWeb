@@ -1,0 +1,94 @@
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    background: #fff;
+    margin: 0 auto;
+    gap: 1.2em;
+}
+.titulo{
+    font-size:1.5em;
+    display: flex;
+}
+.titulo h1{
+    justify-content: start;
+    align-items: center;
+
+} 
+.titulo h1 :hover{
+    cursor:pointer;
+    color:red;
+}
+.titulo  h5{
+    align-content: center;
+    justify-content:center;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+.barraSuperior{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-column:span 5;
+    justify-self: center;
+}
+.barraSuperior ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+}
+.barraSuperior li { 
+    display: inline-block;
+   }
+.imgIzquierda{
+    background: #fff;
+    opacity: 1;
+    filter:alpha(opacity=70);
+    -moz-opacity:.70;opacity:.70;
+    width: 330px;
+    height: 390px;
+}
+.loginDerecha{
+    
+    border: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.piedepagina{
+    display: flex;
+    grid-column: 1/5;
+    justify-content:center;
+    text-align: center;
+    background-color: black;
+    
+}
+.piedepagina a{
+    padding-left: 10px;
+    color:#fff;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.form-group {
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+    margin-top:  2em;
+}
+.form-group label{
+    margin: 0 auto;
+}
+.button {
+    width: 100%;
+    margin-top: 1em;
+    height: 30px;
+    
+}
+
+
